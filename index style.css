@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(197, 197, 197);
+}
+.table1{
+    background-color: blanchedalmond;
+    width: 100%;
+}
+.tophr{
+    border: black solid;
+    background-color: black;
+    height: 10px;
+}
+.part1{
+    width: 100%;
+}
+#lmargin{
+    width: 10%;
+    color: rgb(17, 8, 77);
+}
+#rmargin{
+    width: 10%;
+}
+#aboutme{
+    margin-top: 60px;
+}
+.table2{
+    width: 100%;
+    background-color: rgb(158, 199, 201);
+}
+.table3{
+    width: 100%;
+    background-color: rgb(179, 132, 189);
+}
+.learn{
+    width: 80%;
+    height: 300px;
+    color: rgb(240, 238, 247);
+    text-shadow: black;
+    text-align: center;
+
+}
+.footer{
+    background-color: gray;
+    text-align: center;
+}
+
+
