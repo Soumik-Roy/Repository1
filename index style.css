@@ -44,6 +44,8 @@ body{
     text-align: center;
 }
 #anime{
-    border-radius: 40%;
+    border-radius: 30%;
 }
-
+#credit{
+    text-align: right;
+}
