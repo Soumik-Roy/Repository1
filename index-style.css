@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #AEABAB;
+}
+
+.navbar-div{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: right;
+    position: fixed;
+    width: 95%;
+    height: 5%;
+    padding-right: 13%;
+    margin: 1.5vw;
+}
+
+ul.navbar>li{
+    color: black;
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar a:hover{
+    text-decoration: overline;
+}
+
+.about-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    margin-left: 5%;
+}
+
+.my-image{
+    padding: 30px;
+    padding-right: 50px;
+    margin-left: 5vw;
+    margin-top: 0;
+}
+
+.blob { 
+    margin: 0 0 18vh 0;
+    padding: 0;
+    height: 130%;
+    width: 130%;
+}
+.blob-img{
+    height: 90%;
+    align-self: center;
+    justify-self: center;
+    transform: translateY(10%) translateX(7%);
+    opacity: 0.8;
+}
+
+.about_text{
+    padding: 4vw 15vw 4vw 3vw;
+    margin-bottom: 10vh;
+}
+
+.hey{
+    display: inline;
+    font-size: 60pt;
+    font-weight: bolder;
+    word-spacing: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 7px solid rgb(127, 26, 26);
+    line-height: 140%;
+}
+.hey:hover{
+    color: rgb(98, 21, 20);
+    border-bottom: 7px solid black;
+}
+
+.intro:hover, .about:hover{
+    color: rgb(97, 20, 20);
+}
+
+.intro, .about{
+    font-size: larger;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.projects-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-heading{
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    border-radius: 2px;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50vh;
+    width: 60vw;
+    margin: 3vh;
+    box-shadow: 10px 10px gray;
+}
+
+.proj-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#proj-logo{
+    margin: 50px;
+}
+
+#proj-logo-img{
+    height: 150px;
+    border-radius: 10px;
+}
+
+#proj-title{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#proj-desc{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
