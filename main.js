@@ -6,3 +6,14 @@ document.querySelectorAll('a[href^="."]').forEach(anchor => {
         });
     });
 });
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar-div").style.top = "0";
+  } else {
+    document.getElementById("navbar-div").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}

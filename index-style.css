@@ -7,12 +7,14 @@ body{
     background-color: #AEABAB;
 }
 
-.navbar-div{
+#navbar-div{
     display: flex;
     flex-direction: row;
     align-items:center;
     justify-content: right;
     position: fixed;
+    top: 0;
+    transition: top 0.3s;
     width: 95%;
     height: 5%;
     padding-right: 13%;
@@ -24,6 +26,10 @@ ul.navbar>li{
     list-style-type: none;
     display: inline;
 }
+
+/* .navbar{ 
+    background-color: #727171;
+} */
 
 .navbar a{
     color: black;
@@ -43,7 +49,7 @@ ul.navbar>li{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 95vh;
+    height: 97vh;
     margin-left: 5%;
 }
 
@@ -66,6 +72,23 @@ ul.navbar>li{
     justify-self: center;
     transform: translateY(10%) translateX(7%);
     opacity: 0.8;
+}
+
+@media (orientation: portrait) {
+    .about-div {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .my-image{
+        padding: 0;
+        margin: 10vh 0 2vh 0;
+    }
+    .blob { 
+        margin: 3vh;
+        padding: 0;
+        height: 80%;
+        width: 80%;
+    }
 }
 
 .about_text{
@@ -97,7 +120,11 @@ ul.navbar>li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
 }
-
+@media (orientation: portrait) {
+    .hey{
+        font-size: 45pt;
+    }
+}
 .projects-div{
     display: flex;
     flex-direction: column;
@@ -125,10 +152,11 @@ ul.navbar>li{
     align-items: center;
     justify-content: center;
     background-color: white;
-    height: 50vh;
+    /* height: 50vh; */
     width: 60vw;
     margin: 3vh;
     box-shadow: 10px 10px gray;
+    padding: 15px;
 }
 
 .proj-content{
@@ -157,4 +185,10 @@ ul.navbar>li{
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
+}
+
+@media (orientation: portrait) {
+    .proj-content{
+        flex-direction: column;
+    }
 }
